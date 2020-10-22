@@ -2,8 +2,26 @@
   box-sizing: border-box;
 }
 
-body{
+html,body{
   font-family: 'Syne', sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+#main-cont {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 450px; /* height of your footer */
+}
+
+
+
+.page-footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
 }
 
 .tech-heads{
@@ -73,13 +91,6 @@ button:hover, a:hover {
   visibility: hidden;
   position: absolute;
   width: 0px;
-}
-
-.page-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: auto;            
 }
 
 .board-mem{
@@ -372,6 +383,8 @@ button:hover, a:hover {
     padding-left: 0px;
     font-size: .8em;
   }
+
+
 
   #footer-about{
     padding-left: 60px;
