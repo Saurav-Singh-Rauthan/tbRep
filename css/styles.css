@@ -412,6 +412,20 @@ button:hover, a:hover {
     padding-left: 0px;
     font-size: 1.8em;
   }
+
+  #tech-mem-head{
+    padding-left: 20px;
+  }
+
+  #tech-mem-hack{
+    padding-top: 90px;
+    padding-left: 25px;
+  }
+
+  #tech-mem-webinar{
+    padding-top: 90px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 360px) {
